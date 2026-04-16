@@ -1,3 +1,43 @@
+BayesRhythm
+
+BayesRhythm is a unified computational framework for state-aware rhythmic analysis of transcriptomes, integrating single-cell and bulk RNA-seq data through a novel multi-anchor reference strategy.
+Biological rhythms—ranging from circadian (24-hour) to ultradian (e.g., 12-hour) cycles—are fundamentally shaped by cellular composition, cell-state programs, and environmental conditions. However, existing approaches typically analyze bulk and single-cell data in isolation, and lack the ability to jointly resolve rhythmicity, composition, and state-dependent regulation.
+BayesRhythm addresses this gap by introducing a multi-anchor, state-aware analytical pipeline that connects single-cell references with bulk transcriptomic observations to enable mechanistic interpretation of rhythmic gene regulation.
+
+Key Concepts
+
+* Multi-anchor reference framework Instead of relying on a single reference dataset, BayesRhythm integrates multiple condition- and time-specific single-cell datasets (“anchors”) to construct a more biologically faithful reference atlas.
+* State-aware deconvolution Bulk transcriptomes are decomposed not only into cell-type proportions, but also into cell-state programs, enabling resolution of dynamic biological processes.
+* Integrated rhythmic analysis The framework supports:
+    * rhythmic gene discovery
+    * cross-condition rhythm comparison
+    * state-dependent rhythmic decomposition
+* End-to-end workflow From raw input to publication outputs, BayesRhythm provides:
+    * anchor validation and consensus building
+    * reference atlas construction
+    * deconvolution and rhythm modeling
+    * figure generation and report export
+
+What BayesRhythm Enables
+
+BayesRhythm allows researchers to:
+* Dissect cell-state–specific rhythmic gene programs
+* Compare rhythmic regulation across conditions and timepoints
+* Separate true transcriptional rhythms from composition-driven effects
+* Integrate single-cell resolution with bulk-scale statistical power
+* Generate publication-ready figures and reports directly from analysis workflows
+
+Scope and Applications
+
+BayesRhythm is designed for studies involving:
+* Metabolic and physiological rhythms (e.g., circadian, ultradian)
+* Nutrition and environmental perturbations (e.g., feeding regimens)
+* Disease-associated transcriptomic remodeling
+* Multi-condition and multi-timepoint RNA-seq datasets
+
+Corresponding Author & Copyright (c) 2026 Dr. Huan Meng, huan.meng@gmail.com
+
+
 # BayesRhythm v3.2.0 real-data execution hardening
 
 This build hardens the single-cell preparation layer using real uploaded Chow/TRF MEX archives.
