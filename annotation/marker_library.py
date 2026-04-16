@@ -1,0 +1,1 @@
+MARKER_LIBRARY={"hepatocyte":["Alb","Ttr","Apoa1"],"kupffer_cell":["Adgre1","Csf1r","Lyz2"],"endothelial_cell":["Kdr","Pecam1","Klf2"],"cholangiocyte":["Krt19","Krt7","Sox9"],"stellate_cell":["Col1a1","Col1a2","Rgs5"],"t_cell":["Cd3d","Cd3e","Trbc2"]}

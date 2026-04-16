@@ -1,0 +1,1 @@
+"""BayesRhythm decomposition package."""

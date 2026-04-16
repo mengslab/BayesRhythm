@@ -1,0 +1,1 @@
+"""BayesRhythm trajectories package."""
