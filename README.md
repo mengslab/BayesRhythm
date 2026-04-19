@@ -38,7 +38,7 @@ BayesRhythm is designed for studies involving:
 Corresponding Author & Copyright (c) 2026 Dr. Huan Meng, huan.meng@gmail.com
 
 
-# BayesRhythm v3.2.0 real-data execution hardening
+# BayesRhythm v3.2.0
 
 This build hardens the single-cell preparation layer using real uploaded Chow/TRF MEX archives.
 
